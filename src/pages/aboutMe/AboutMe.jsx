@@ -53,7 +53,7 @@ function AboutMe() {
             </div>
             <br></br>
             <div className="ab-cert">
-              {isVisible2 && <div><strong>Meta Front-End Developer Certification</strong><p><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/3AEQQ4DRC8ZU" target='_blank'>Certification</a><i> Offered by Meta staff</i></p></div>}
+              {isVisible2 && <div><strong>Meta Front-End Developer Professional Certificate</strong><p><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/3AEQQ4DRC8ZU" target='_blank'>Certification</a><i> Offered by Meta staff</i></p></div>}
             </div>
           </div>
         </div>
