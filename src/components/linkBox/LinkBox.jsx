@@ -19,7 +19,7 @@ function LinkBox() {
               <Link to='/aboutme'>
                 <button>
                   <div className="link-icon"><BsInfoCircleFill /></div>
-                  About Me
+                  <p>About Me</p>
                   <span className="link-icon"><AiOutlineArrowRight /></span>
                 </button>
               </Link>
@@ -31,7 +31,7 @@ function LinkBox() {
               <Link to="/projects">
                 <button>
                   <div className="link-icon"><VscEditorLayout /></div>
-                  Projects
+                  <p>Projects</p>
                   <span className="link-icon"><AiOutlineArrowRight /></span>
                 </button>
               </Link>
@@ -42,7 +42,7 @@ function LinkBox() {
             <a href="https://github.com/tonyruizo" target="_blank">
               <button>
                 <div className="link-icon"><BsFileEarmarkCode /></div>
-                Github
+                <p>Github</p>
                 <span className="link-icon"><AiOutlineArrowRight /></span>
               </button>
             </a>
@@ -52,7 +52,7 @@ function LinkBox() {
             <a href="https://twitter.com/tonyruizo?ref_src=twsrc%5Etfw" target='_blank'>
               <button>
                 <div className="link-icon"><BsPersonPlus /></div>
-                Follow
+                <p>Follow</p>
                 <span className="link-icon"><AiOutlineArrowLeft /></span>
               </button>
             </a>

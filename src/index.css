@@ -112,6 +112,10 @@ body {
   .copyright p {
     font-size: 0.6rem;
   }
+
+  button p {
+    font-weight: bold;
+  }
 }
 
 
@@ -180,6 +184,10 @@ body {
     font-size: 0.7rem;
   }
 
+  button p {
+    font-weight: bold;
+  }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -226,6 +234,10 @@ body {
   /* footer */
   .copyright p {
     font-size: .9rem;
+  }
+
+  button p {
+    font-weight: lighter;
   }
 }
 
