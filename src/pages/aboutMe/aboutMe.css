@@ -1,0 +1,67 @@
+.aboutMe-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutMe-heading {
+  padding-top: 1rem;
+}
+
+.ab-display {
+  padding: 1rem 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ab-bio {
+  padding: 2rem 1rem;
+  border-radius: 1rem;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-bottom: 2rem;
+}
+
+.ab-heading {
+  border-radius: 5px;
+  /* background-color: #fff; */
+  font-weight: bold;
+  border: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.6rem 2rem;
+  width: 11rem;
+}
+
+.ab-skills,
+.ab-education {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+
+
+.ab-heading:hover {
+  cursor: pointer;
+  color: var(--primary-color);
+}
+
+.ab-degree a,
+.ab-cert a {
+  color: var(--primary-color);
+}
+
+.aboutMe-btn {
+  padding-top: 2rem;
+}
+
+@media screen and (max-width:359px) {
+
+  .ab-bio {
+    max-width: 15rem;
+  }
+}

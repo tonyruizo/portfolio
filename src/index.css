@@ -1,0 +1,276 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 24px;
+  font-weight: 400;
+
+  --primary-color: #4e64f0;
+  --light: #808080;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100vh;
+  line-height: 1.7;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.bg-image {
+  background: url(./assets/avatar.png);
+  filter: blur(60px) opacity(55%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+@media screen and (min-width:280px) and (max-width:389px) {
+  .avatar-card img {
+    width: 6.5rem;
+    height: 6.5rem;
+  }
+
+  .avatar-bio h3 {
+    font-size: 0.8rem;
+  }
+
+  .avatar-location p {
+    font-size: 0.8rem;
+  }
+
+  .projects-heading h1,
+  .aboutMe-heading h1 {
+    font-size: 1.2rem;
+  }
+
+  .projects-container {
+    margin: 2rem auto;
+  }
+
+  .projects-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .projectCard-container {
+    width: 13.5rem;
+  }
+
+  .projectCard-btn {
+    margin: 1rem 0.75rem;
+  }
+
+  .projects-body-btn {
+    display: flex;
+    padding: 3rem 1rem;
+    justify-content: space-between;
+  }
+
+  .projects-body-btn button {
+    align-items: center;
+    padding: 0.7rem 1rem;
+  }
+
+  .ab-bio {
+    max-width: 20rem;
+    text-align: center;
+  }
+
+  .footer-container {
+    padding-top: 2rem;
+  }
+
+  .copyright p {
+    font-size: 0.6rem;
+  }
+}
+
+
+@media screen and (min-width: 390px) {
+
+  .avatar-card img {
+    width: 6.5rem;
+    height: 6.5rem;
+  }
+
+  .avatar-bio h3 {
+    font-size: 0.9rem;
+  }
+
+  .avatar-location p {
+    font-size: 0.9rem;
+  }
+
+  .linkBox-container {
+    margin-top: 3rem;
+  }
+
+  .footer-container {
+    margin-top: 5rem;
+  }
+
+  /* projects page */
+
+  .projects-heading h1,
+  .aboutMe-heading h1 {
+    font-size: 1.6rem;
+  }
+
+  .projects-container {
+    margin: 2rem auto;
+  }
+
+  .projectCard-container {
+    width: 13.5rem;
+  }
+
+
+
+  .projectCard-btn {
+    margin: 1rem 0.75rem;
+  }
+
+  .projects-body-btn {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+    padding-top: 2rem;
+  }
+
+  .projects-body-btn button {
+    align-items: center;
+    padding: 0.7rem 1rem;
+  }
+
+  .ab-bio {
+    max-width: 20rem;
+    text-align: left;
+  }
+
+  .copyright p {
+    font-size: 0.7rem;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+
+  .linkBox-container {
+    margin: 6rem 0;
+  }
+
+  .linkbox li button,
+  .linkbox button {
+    font-size: 1rem;
+  }
+
+  .icon a {
+    font-size: 1.1rem;
+  }
+
+  .projects-container,
+  .aboutMe-container {
+    min-width: 45rem;
+    margin: 0 auto;
+  }
+
+  .projects-display {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .projects-body-btn {
+    margin: 0 auto;
+
+  }
+
+  .projects-body-btn button {
+    padding: 0.75rem 1.3rem;
+  }
+
+  .ab-bio {
+    max-width: 40rem;
+    padding: 2rem 1rem;
+  }
+
+  /* footer */
+  .copyright p {
+    font-size: .9rem;
+  }
+}
+
+
+@media screen and (min-width: 1440px) {
+  .avatar-card img {
+    width: 9.5rem;
+    height: 9.5rem;
+  }
+
+  .avatar-bio h3 {
+    font-size: 1rem;
+  }
+
+  .avatar-location p {
+    font-size: 1rem;
+  }
+
+  .linkbox {
+    width: 550px;
+  }
+
+  .linkbox li button,
+  .linkbox button {
+    font-size: 1.1rem;
+  }
+
+
+  .projects-container,
+  .aboutMe-container {
+    min-width: 70rem;
+    margin: 0 auto;
+  }
+
+  .projectCard-container {
+    width: 18.5rem;
+  }
+
+  .projectCard-btn {
+    margin: 1rem 2rem;
+  }
+
+  /* footer */
+
+  .icon a {
+    font-size: 1.2rem;
+  }
+}

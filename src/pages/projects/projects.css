@@ -1,0 +1,8 @@
+.projects-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-heading {
+  padding: 1rem 0;
+}
