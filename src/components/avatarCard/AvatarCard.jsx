@@ -1,5 +1,5 @@
 import React from 'react';
-import Avatar from '../../assets/avatar.png';
+import Avatar from '../../assets/profile1.jpg';
 import './avatarCard.css';
 import { Link } from 'react-router-dom';
 
