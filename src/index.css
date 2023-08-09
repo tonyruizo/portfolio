@@ -30,20 +30,20 @@ html {
 body {
   /* height: 100vh; */
   line-height: 1.7;
-  /*background: url(./assets/background-cuptable.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  backdrop-filter: brightness(60%) blur(10px); */
-  position: relative;
   background: url(./assets/background-cuptable.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  backdrop-filter: brightness(60%) blur(10px);
+  /* position: relative;
+  background: url(./assets/background-cuptable.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
 
 }
 
-body::before {
+/* body::before {
   content: "";
   position: fixed;
   top: 0;
@@ -54,7 +54,7 @@ body::before {
   pointer-events: none;
   z-index: -1;
   backdrop-filter: blur(10px);
-}
+} */
 
 .container {
   display: flex;
@@ -74,7 +74,6 @@ body::before {
   position: absolute;
   z-index: -1;
 } */
-
 
 
 @media screen and (min-width:280px) and (max-width:389px) {
