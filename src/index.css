@@ -28,33 +28,17 @@ html {
 }
 
 body {
-  /* height: 100vh; */
+  min-height: 100vh;
   line-height: 1.7;
+  backdrop-filter: brightness(60%) blur(10px);
+  position: relative;
   background: url(./assets/background-cuptable.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  backdrop-filter: brightness(60%) blur(10px);
-  /* position: relative;
-  background: url(./assets/background-cuptable.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
 
 }
 
-/* body::before {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
-  pointer-events: none;
-  z-index: -1;
-  backdrop-filter: blur(10px);
-} */
 
 .container {
   display: flex;
@@ -62,18 +46,6 @@ body {
   text-align: center;
   flex-direction: column;
 }
-
-/* .bg-image {
-  background: url(./assets/background-cuptable.jpg);
-  filter: blur(60px) opacity(55%);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  z-index: -1;
-} */
 
 
 @media screen and (min-width:280px) and (max-width:389px) {
