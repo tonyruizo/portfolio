@@ -48,7 +48,7 @@ function LinkBox() {
             </a>
           </div>
 
-          <div className="linkbox">
+          {/* <div className="linkbox">
             <a href="https://twitter.com/tonyruizo?ref_src=twsrc%5Etfw" target='_blank'>
               <button>
                 <div className="link-icon"><BsPersonPlus /></div>
@@ -56,7 +56,7 @@ function LinkBox() {
                 <span className="link-icon"><AiOutlineArrowLeft /></span>
               </button>
             </a>
-          </div>
+          </div> */}
         </ul>
       </div>
     </div >

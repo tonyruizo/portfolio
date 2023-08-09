@@ -7,8 +7,8 @@
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   transition: all 0.5s ease-in-out;
   margin: 1rem 0;
-  /* background-color: #303132; */
-  color: black;
+  background-color: #24242490;
+  color: var(--secondary-color);
 }
 
 
@@ -21,13 +21,12 @@
 .projectCard-content {
   margin: 0 10px;
   min-height: 5rem;
-
 }
 
 
 .projectCard-heading {
   margin-top: 1rem;
-  font-weight: bold;
+  font-weight: 300;
 
 }
 
@@ -38,4 +37,5 @@
 
 .projectCard-btn button {
   padding: 5px 15px;
+  font-weight: 100;
 }

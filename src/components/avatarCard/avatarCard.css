@@ -15,6 +15,12 @@
 .avatar-heading h1 {
   font-size: 1.3rem;
   color: var(--primary-color);
+  font-weight: 300;
+}
+
+.avatar-bio,
+.avatar-location {
+  color: var(--secondary-color);
 }
 
 

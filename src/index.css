@@ -18,7 +18,8 @@ a {
   line-height: 24px;
   font-weight: 400;
 
-  --primary-color: #4e64f0;
+  --primary-color: #ff914d;
+  --secondary-color: #ebe6e6;
   --light: #808080;
 }
 
@@ -27,9 +28,13 @@ html {
 }
 
 body {
-  height: 100vh;
+  /* height: 100vh; */
   line-height: 1.7;
-
+  background: url(./assets/background-cuptable.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: brightness(60%) blur(10px);
 }
 
 .container {
@@ -39,8 +44,8 @@ body {
   flex-direction: column;
 }
 
-.bg-image {
-  background: url(./assets/avatar.png);
+/* .bg-image {
+  background: url(./assets/background-cuptable.jpg);
   filter: blur(60px) opacity(55%);
   background-position: center;
   background-repeat: no-repeat;
@@ -49,7 +54,7 @@ body {
   width: 100%;
   position: absolute;
   z-index: -1;
-}
+} */
 
 @media screen and (min-width:280px) and (max-width:389px) {
   .avatar-card img {
@@ -250,6 +255,7 @@ body {
 
   .avatar-bio h3 {
     font-size: 1rem;
+    font-weight: 400;
   }
 
   .avatar-location p {

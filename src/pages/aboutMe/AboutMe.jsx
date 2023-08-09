@@ -10,19 +10,19 @@ function AboutMe() {
   const backHomeBtn = () => navigate('/');
 
 
-  const [isVisible, setVisible] = useState(false);
-  const toggleDiv1 = () => {
-    setVisible(!isVisible);
+  // const [isVisible, setVisible] = useState(false);
+  // const toggleDiv1 = () => {
+  //   setVisible(!isVisible);
 
-  };
+  // };
 
-  const [isVisible2, setVisible2] = useState(false);
-  const toggleDiv2 = () => {
-    setVisible2(!isVisible2);
-  };
+  // const [isVisible2, setVisible2] = useState(false);
+  // const toggleDiv2 = () => {
+  //   setVisible2(!isVisible2);
+  // };
 
-  const icon = isVisible ? <AiOutlineArrowUp /> : <AiOutlineArrowDown />;
-  const icon2 = isVisible2 ? <AiOutlineArrowUp /> : <AiOutlineArrowDown />;
+  // const icon = isVisible ? <AiOutlineArrowUp /> : <AiOutlineArrowDown />;
+  // const icon2 = isVisible2 ? <AiOutlineArrowUp /> : <AiOutlineArrowDown />;
 
 
   return (
@@ -33,10 +33,15 @@ function AboutMe() {
       <div className="aboutMe-body">
         <div className="ab-display">
           <div className="ab-bio">
-            <p>I have experience working with front-end frameworks, such as React, and an understanding of version control with Git. Additionally, I possess problem-solving skills and a passion for staying up-to-date with industry trends and technologies.</p><br></br><p> With a dedication to delivering high-quality work, I am eager to contribute my skills to a dynamic and collaborative team. Currently, a part-time student at
-              Hillsborough Community College pursuing a Computer Programming and Analysis A.S. degree.</p>
+            <p>With a solid foundation in front-end development using frameworks like React and a comprehensive grasp of Git version control, I bring valuable experience to the table. My knack for problem-solving is a driving force, complemented by an unwavering passion for staying abreast of the latest industry trends and technological advancements.
+              <br />
+              <br />
+              In my continuous pursuit of growth, I am actively mastering C#, Visual Basic, jQuery, and SQL, which speaks to my dedication to expanding my skill set. I am currently engaged in a project that employs a skillful blend of ASP.NET, VB.NET, jQuery, Bootstrap, and SQL Server, showcasing my adaptability to diverse tech stacks.
+              <br />
+              <br />
+              My commitment to delivering top-tier outputs is unwavering, and I'm enthusiastic about channeling my abilities into a vibrant and collaborative team environment. I'm balancing my professional journey with part-time studies at Hillsborough Community College, where I'm pursuing a Computer Programming and Analysis A.S. degree, further underlining my commitment to excellence.</p>
           </div>
-          <div className="ab-skills">
+          {/* <div className="ab-skills">
             <div className="ab-heading" onClick={toggleDiv1}>Skills {icon}</div>
             <div className="ab-learning-skills">
               {isVisible && <div><strong>Learning</strong><p><i>C#, Visual Basic, XML, jQuery, SQL</i></p></div>}
@@ -55,7 +60,7 @@ function AboutMe() {
             <div className="ab-cert">
               {isVisible2 && <div><strong>Meta Front-End Developer Professional Certificate</strong><p><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/3AEQQ4DRC8ZU" target='_blank'>Certification</a><i> Offered by Meta staff</i></p></div>}
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="aboutMe-btn">
           <button onClick={backHomeBtn}>Back to Home</button>

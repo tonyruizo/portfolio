@@ -1,11 +1,16 @@
+.aboutMe-container {
+  padding-top: 3rem;
+}
+
 .aboutMe-body {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.aboutMe-heading {
-  padding-top: 1rem;
+.aboutMe-heading h1 {
+  color: var(--primary-color);
+  font-weight: 300;
 }
 
 .ab-display {
@@ -19,9 +24,11 @@
 .ab-bio {
   padding: 2rem 1rem;
   border-radius: 1rem;
-  background: white;
+  /* background: rgba(0, 0, 0, 0.497); */
+  background-color: #24242490;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   margin-bottom: 2rem;
+  color: var(--secondary-color);
 }
 
 .ab-heading {
@@ -34,6 +41,7 @@
   align-items: center;
   padding: 0.6rem 2rem;
   width: 11rem;
+  color: var(--primary-color);
 }
 
 .ab-skills,
@@ -42,6 +50,9 @@
   flex-direction: column;
   align-items: center;
   padding: 0.5rem 0;
+  border-radius: 1rem;
+  background-color: #24242490;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 
