@@ -29,22 +29,36 @@ html {
 
 body {
   /* height: 100vh; */
-  line-height: 1.7;
+  /* line-height: 1.7;
   background: url(./assets/background-cuptable.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  backdrop-filter: brightness(60%) blur(10px);
+  backdrop-filter: brightness(60%) blur(10px); */
+  position: relative;
+  /* Make sure the overlay respects the body's dimensions */
+  background: url(./assets/background-cuptable.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-  .overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
-    pointer-events: none;
-  }
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Adjust the opacity as needed */
+  pointer-events: none;
+  /* Allows interactions with content behind the overlay */
+  z-index: -1;
+  /* Place the overlay behind the content */
+  backdrop-filter: blur(10px);
+  /* For browsers that support backdrop-filter */
 }
 
 .container {
@@ -65,6 +79,16 @@ body {
   position: absolute;
   z-index: -1;
 } */
+
+/* Fallback for browsers that don't support backdrop-filter */
+@media not all and (min-resolution: 0.001dpcm) {
+
+  /* Adjust the background and opacity as needed for the fallback */
+  body::before {
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: none;
+  }
+}
 
 @media screen and (min-width:280px) and (max-width:389px) {
   .avatar-card img {
