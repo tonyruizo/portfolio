@@ -18,9 +18,14 @@ a {
   line-height: 24px;
   font-weight: 400;
 
-  --primary-color: #ff914d;
-  --secondary-color: #ebe6e6;
+  --primary-color: #84B1D1;
+  --bg:#132031;
+  --secondary-color: #d9dff1;
   --light: #808080;
+
+  --light-bg:#eee;
+  --light-primary: #000;
+  --light-secondary-color: #1c72b0;
 }
 
 html {
@@ -30,13 +35,30 @@ html {
 body {
   min-height: 100vh;
   line-height: 1.7;
-  backdrop-filter: brightness(60%) blur(10px);
   position: relative;
-  background: url(./assets/background-cuptable.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: var(--light-bg);
+}
 
+button {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 0.7rem 2rem; */
+  background-color: transparent;
+}
+
+.dark-mode {
+ background-color: var(--bg);
+.avatar-heading h1 {
+    color: var(--primary-color);
+  }
+
+  .avatar-bio,
+  .avatar-location {
+    color: var(--light-secondary-color);
+  }
+    .displayModeBtn {
+      color: var(--primary-color);
+    }
 }
 
 
@@ -113,6 +135,8 @@ body {
   button p {
     font-weight: bold;
   }
+
+  
 }
 
 
@@ -185,6 +209,10 @@ body {
     font-weight: bold;
   }
 
+  .displayModeBtn {
+    margin-right: 2rem;
+  }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -235,6 +263,10 @@ body {
 
   button p {
     font-weight: lighter;
+  }
+
+  .displayModeBtn {
+    margin-right: 12rem;
   }
 }
 

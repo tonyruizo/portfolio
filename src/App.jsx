@@ -5,13 +5,15 @@ import AvatarCard from './components/avatarCard/AvatarCard';
 import { Routes, Route } from 'react-router-dom';
 import Projects from './pages/projects/Projects';
 import AboutMe from './pages/aboutMe/AboutMe';
+import Settings from './components/settings/Settings';
 
 function App() {
 
 
   return (
     <div className='container'>
-      <div className='bg-image'></div>
+      {/* <div className='bg-image'></div> */}
+      <Settings />
       <AvatarCard />
 
       <Routes>

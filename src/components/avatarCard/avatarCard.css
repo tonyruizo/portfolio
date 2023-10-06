@@ -14,13 +14,13 @@
 
 .avatar-heading h1 {
   font-size: 1.3rem;
-  color: var(--primary-color);
+  color: var(--light-primary);
   font-weight: 300;
 }
 
 .avatar-bio,
 .avatar-location {
-  color: var(--secondary-color);
+  color: var(--light-primary);
 }
 
 
