@@ -1,5 +1,5 @@
 import React from 'react';
-import Avatar from '../../assets/profile5.jpg';
+import Avatar from '../../assets/profile1.jpg';
 import './avatarCard.css';
 import { Link } from 'react-router-dom';
 
@@ -16,7 +16,7 @@ function AvatarCard() {
         <h1>@tonyruizo</h1>
       </div>
       <div className="avatar-bio">
-        <h3>Software Developer</h3>
+        <h3>Web Developer</h3>
       </div>
       <div className="avatar-location">
         <p>Tampa, FL</p>

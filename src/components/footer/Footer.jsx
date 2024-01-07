@@ -6,6 +6,7 @@ import { SlSocialLinkedin } from 'react-icons/sl';
 import { FiMail } from 'react-icons/fi';
 
 function Footer() {
+  const currentYear = new Date().getFullYear();
   return (
     <div className='footer-container'>
       <div className="footer-icons">
@@ -23,7 +24,7 @@ function Footer() {
         </div>
       </div>
       <div className="copyright">
-        <p>By <a href='/'>Tonyruizo</a> &copy; Copyright 2023 - All Rights Reserved.</p>
+        <p>Copyright &copy; {currentYear} - All Rights Reserved. Created by <a href='/'>@tonyruizo</a> </p>
       </div>
     </div>
   );

@@ -15,7 +15,7 @@ function App() {
       {/* <div className='bg-image'></div> */}
       <Settings />
       <AvatarCard />
-
+      <AboutMe />
       <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path='/aboutme' element={<AboutMe />}></Route>

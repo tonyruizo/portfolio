@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -18,7 +19,7 @@ a {
   line-height: 24px;
   font-weight: 400;
 
-  --primary-color: #84B1D1;
+  --primary-color: #4f7da0;
   --bg:#132031;
   --secondary-color: #d9dff1;
   --light: #808080;
@@ -48,17 +49,22 @@ button {
 
 .dark-mode {
  background-color: var(--bg);
-.avatar-heading h1 {
-    color: var(--primary-color);
+
+  .avatar-heading h1 {
+    color: var(--light-bg);
   }
 
   .avatar-bio,
   .avatar-location {
-    color: var(--light-secondary-color);
+    color: var(--primary-color);
   }
     .displayModeBtn {
-      color: var(--primary-color);
+      color: var(--light-bg);
     }
+
+  .ab-bio {
+    color: var(--light-bg)
+  }
 }
 
 
@@ -187,8 +193,7 @@ button {
   .projects-body-btn {
     display: flex;
     justify-content: space-between;
-    padding: 0 5px;
-    padding-top: 2rem;
+    padding: 2rem 5px;
   }
 
   .projects-body-btn button {
@@ -216,15 +221,6 @@ button {
 }
 
 @media screen and (min-width: 768px) {
-
-  .linkBox-container {
-    margin: 6rem 0;
-  }
-
-  .linkbox li button,
-  .linkbox button {
-    font-size: 1rem;
-  }
 
   .icon a {
     font-size: 1.1rem;
@@ -284,15 +280,6 @@ button {
 
   .avatar-location p {
     font-size: 1rem;
-  }
-
-  .linkbox {
-    width: 550px;
-  }
-
-  .linkbox li button,
-  .linkbox button {
-    font-size: 1.1rem;
   }
 
 

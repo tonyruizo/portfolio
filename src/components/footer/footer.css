@@ -36,4 +36,5 @@
 .copyright p {
   color: var(--light);
   padding-bottom: 2rem;
+  font-weight: lighter;
 }
