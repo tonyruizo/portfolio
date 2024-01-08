@@ -5,11 +5,10 @@ import { Link } from 'react-router-dom';
 
 function AvatarCard() {
   return (
-    <div className='avatar-card'>
+    <div className='container avatar-card'>
       <div className="avatar-img">
         <Link to='/'>
-          <img src={Avatar} alt="avatar-photo" />
-
+          <img src={Avatar} alt="Profile photo" />
         </Link>
       </div>
       <div className="avatar-heading">

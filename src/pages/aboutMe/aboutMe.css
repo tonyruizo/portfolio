@@ -1,11 +1,5 @@
-.aboutMe-container {
+.aboutMe {
   padding-top: 3rem;
-}
-
-.aboutMe-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .aboutMe-heading h1 {
@@ -13,20 +7,12 @@
   font-weight: 300;
 }
 
-.ab-display {
-  padding: 1rem 0;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .ab-bio {
   padding: 1rem 1rem;
   border-radius: 1rem;
   box-shadow: rgba(0, 0, 0, 0.1) 0 0 5px 0, rgba(0, 0, 0, 0.1) 0 0 1px 0;
   background: #eee2;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   color: var(--light-primary);
   font-weight: lighter;
   width: 35rem;
@@ -36,30 +22,24 @@
     display: flex;
     justify-content: space-between;
   }
-
 }
 
 .ab-bio-heading {
   padding-bottom: 0.2rem;
-  font-size:1.1rem;
+  font-size:0.8rem;
 }
 
 .ab-bio-info {
   padding: 1rem 0;
+  font-size: 0.8rem;
 }
 
 .ab-bio-icon {
   cursor: pointer;
-  /*padding-right: 0.3rem;*/
+  display: flex;
+  align-items: center;
 }
 
-.aboutMe-btn {
-  padding-top: 2rem;
-}
-
-@media screen and (max-width:359px) {
-
-  .ab-bio {
-    max-width: 15rem;
-  }
+.detail-role {
+  padding: 1rem 0;
 }

@@ -1,6 +1,6 @@
 .avatar-card {
   margin: 10px auto;
-  /*padding-top: 2rem;*/
+  padding-top: 2rem;
 }
 
 .avatar-card img {
@@ -21,11 +21,4 @@
 .avatar-bio,
 .avatar-location {
   color: var(--light-primary);
-}
-
-
-@media screen and (min-width: 360px) {
-  .avatar-card {
-    margin-top: 5rem;
-  }
 }

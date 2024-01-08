@@ -1,4 +1,4 @@
-import './index.css';
+
 import Home from './pages/home/Home';
 import Footer from './components/footer/Footer';
 import AvatarCard from './components/avatarCard/AvatarCard';
@@ -11,8 +11,7 @@ function App() {
 
 
   return (
-    <div className='container'>
-      {/* <div className='bg-image'></div> */}
+    <div className='main'>
       <Settings />
       <AvatarCard />
       <AboutMe />
@@ -29,3 +28,5 @@ function App() {
 }
 
 export default App;
+
+import './index.css';

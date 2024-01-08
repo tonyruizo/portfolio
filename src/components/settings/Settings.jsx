@@ -18,8 +18,7 @@ function Settings() {
     }
   return (
     <div className='settings-container'>
-        <button className='displayModeBtn' onClick={toggleDarkMode}>{isDarkMode ? <BsFillSunFill/> :<BsMoonStarsFill/> }</button>
-        
+        <div className='displayModeBtn' onClick={toggleDarkMode}>{isDarkMode ? <BsFillSunFill/> :<BsMoonStarsFill/> }</div>
     </div>
   )
 }

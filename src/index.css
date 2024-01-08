@@ -15,10 +15,6 @@ a {
 }
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 24px;
-  font-weight: 400;
-
   --primary-color: #4f7da0;
   --bg:#132031;
   --secondary-color: #d9dff1;
@@ -34,19 +30,13 @@ html {
 }
 
 body {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   min-height: 100vh;
   line-height: 1.7;
-  position: relative;
   background-color: var(--light-bg);
 }
 
-button {
-  display: flex;
-  justify-content: space-between;
-  /* padding: 0.7rem 2rem; */
-  background-color: transparent;
-}
-
+/*Dark mode CSS*/
 .dark-mode {
  background-color: var(--bg);
 
@@ -67,15 +57,16 @@ button {
   }
 }
 
-
+/*General CSS*/
 .container {
   display: flex;
   justify-content: center;
-  text-align: center;
+  align-items: center;
   flex-direction: column;
 }
 
 
+/*Media Queries*/
 @media screen and (min-width:280px) and (max-width:389px) {
   .avatar-card img {
     width: 6.5rem;
@@ -90,44 +81,8 @@ button {
     font-size: 0.8rem;
   }
 
-  .projects-heading h1,
-  .aboutMe-heading h1 {
-    font-size: 1.2rem;
-  }
-
-  .projects-container {
-    margin: 2rem auto;
-  }
-
-  .projects-display {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .projectCard-container {
-    width: 13.5rem;
-  }
-
-  .projectCard-btn {
-    margin: 1rem 0.75rem;
-  }
-
-  .projects-body-btn {
-    display: flex;
-    padding: 3rem 1rem;
-    justify-content: space-between;
-  }
-
-  .projects-body-btn button {
-    align-items: center;
-    padding: 0.7rem 1rem;
-  }
-
   .ab-bio {
     max-width: 20rem;
-    text-align: center;
   }
 
   .footer-container {
@@ -137,16 +92,12 @@ button {
   .copyright p {
     font-size: 0.6rem;
   }
-
-  button p {
-    font-weight: bold;
-  }
-
-  
 }
 
-
 @media screen and (min-width: 390px) {
+  .avatar-card {
+    margin-top: 5rem;
+  }
 
   .avatar-card img {
     width: 6.5rem;
@@ -161,44 +112,8 @@ button {
     font-size: 0.9rem;
   }
 
-  .linkBox-container {
-    margin-top: 3rem;
-  }
-
   .footer-container {
     margin-top: 5rem;
-  }
-
-  /* projects page */
-
-  .projects-heading h1,
-  .aboutMe-heading h1 {
-    font-size: 1.6rem;
-  }
-
-  .projects-container {
-    margin: 2rem auto;
-  }
-
-  .projectCard-container {
-    width: 13.5rem;
-  }
-
-
-
-  .projectCard-btn {
-    margin: 1rem 0.75rem;
-  }
-
-  .projects-body-btn {
-    display: flex;
-    justify-content: space-between;
-    padding: 2rem 5px;
-  }
-
-  .projects-body-btn button {
-    align-items: center;
-    padding: 0.7rem 1rem;
   }
 
   .ab-bio {
@@ -210,46 +125,32 @@ button {
     font-size: 0.7rem;
   }
 
-  button p {
-    font-weight: bold;
-  }
-
   .displayModeBtn {
     margin-right: 2rem;
   }
-
 }
 
 @media screen and (min-width: 768px) {
-
-  .icon a {
-    font-size: 1.1rem;
+  .avatar-card img {
+    width: 8rem;
+    height:8rem;
   }
 
-  .projects-container,
-  .aboutMe-container {
+  .aboutMe {
     min-width: 45rem;
     margin: 0 auto;
   }
 
-  .projects-display {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .projects-body-btn {
-    margin: 0 auto;
-
-  }
-
-  .projects-body-btn button {
-    padding: 0.75rem 1.3rem;
-  }
-
   .ab-bio {
     max-width: 40rem;
-    padding: 2rem 1rem;
+  }
+
+  .ab-bio-heading {
+    font-size: 1rem;
+  }
+
+  .ab-bio-info {
+    font-size: 1rem;
   }
 
   /* footer */
@@ -257,49 +158,7 @@ button {
     font-size: .9rem;
   }
 
-  button p {
-    font-weight: lighter;
-  }
-
   .displayModeBtn {
-    margin-right: 12rem;
-  }
-}
-
-
-@media screen and (min-width: 1440px) {
-  .avatar-card img {
-    width: 9.5rem;
-    height: 9.5rem;
-  }
-
-  .avatar-bio h3 {
-    font-size: 1rem;
-    font-weight: 400;
-  }
-
-  .avatar-location p {
-    font-size: 1rem;
-  }
-
-
-  .projects-container,
-  .aboutMe-container {
-    min-width: 70rem;
-    margin: 0 auto;
-  }
-
-  .projectCard-container {
-    width: 18.5rem;
-  }
-
-  .projectCard-btn {
-    margin: 1rem 2rem;
-  }
-
-  /* footer */
-
-  .icon a {
-    font-size: 1.2rem;
+    margin-right: 3rem;
   }
 }

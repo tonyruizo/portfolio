@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "heading": "Summary",
+    "body": "Results-driven web developer with a strong work ethic and a proven track record of contributing to startup software companies. Specializing in front-end web development, excels in adapting to organizational growth, taking ownership of projects, and collaborating with colleagues to drive innovation."
+  },
+  {
+    "id": 2,
+    "heading": "Skills",
+    "body": [
+      {
+        "title": "Programming Languages: ",
+        "info": "JavaScript (ES6+), SQL"
+      },
+      {
+        "title": "Frameworks & Libraries: ",
+        "info": "ReactJS, jQuery, ASP.NET"
+      },
+      {
+        "title": "Web Development Tools: ",
+        "info": "GIT, HTML5, CSS/SCSS, Bootstrap, Figma"
+      },
+      {
+        "title": "Databases: ",
+        "info": "SQL Server"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "heading": "Experience",
+    "body": [
+      {
+        "title": "Great Meets",
+        "date": "Jun 2023 - Present",
+        "info": "Front-End Web Developer",
+        "link": "https://greatmeets.com",
+        "role": "Utilize front-end technologies. Work closely with the team to improve and innovate the platform's features and functionality. Implemented and optimized stored procedures in Microsoft SQL Server to ensure efficient data management, which helped to create a seamless user experience."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "heading": "Education",
+    "body": [
+      {
+        "title": "(A.S.) - Computer Programming & Analysis",
+        "date": "Jan 2022 - Dec 2024 (Expected)",
+        "info": "Hillsborough Community College, Florida",
+        "link": "https://www.hccfl.edu/"
+      }
+    ]
+  }
+]
