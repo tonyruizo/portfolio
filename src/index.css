@@ -96,7 +96,7 @@ body {
 
 @media screen and (min-width: 390px) {
   .avatar-card {
-    margin-top: 5rem;
+    margin-top: 1rem;
   }
 
   .avatar-card img {
@@ -159,6 +159,13 @@ body {
   }
 
   .displayModeBtn {
-    margin-right: 3rem;
+    margin-right: 2rem;
   }
+}
+
+@media screen and (min-width: 1200px) {
+  .displayModeBtn {
+    margin-right: 6rem;
+  }
+
 }
