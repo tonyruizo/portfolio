@@ -6,16 +6,6 @@
   "display": "standalone",
   "icons": [
     {
-      "src": "/src/assets/icons/72port-icon.svg",
-      "sizes": "72x72",
-      "type": "image/svg+xml"
-    },
-    {
-      "src": "/src/assets/icons/96port-icon.svg",
-      "sizes": "96x96",
-      "type": "image/svg+xml"
-    },
-    {
       "src": "/src/assets/icons/128port-icon.svg",
       "sizes": "128x128",
       "type": "image/svg+xml",
@@ -24,11 +14,6 @@
     {
       "src": "/src/assets/icons/144port-icon.svg",
       "sizes": "144x144",
-      "type": "image/svg+xml"
-    },
-    {
-      "src": "/src/assets/icons/152port-icon.svg",
-      "sizes": "152x152",
       "type": "image/svg+xml"
     },
     {
