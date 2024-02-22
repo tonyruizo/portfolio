@@ -12,10 +12,15 @@
     rgba(0, 0, 0, 0.09) 0 16px 8px, rgba(0, 0, 0, 0.09) 0 32px 16px;
 }
 
+
 .avatar-heading h1 {
   font-size: 1.3rem;
   color: var(--primary-color);
   font-weight: 300;
+}
+
+.avatar-bio h2 {
+  font-size: 1rem;
 }
 
 .avatar-bio,

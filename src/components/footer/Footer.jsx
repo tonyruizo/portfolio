@@ -11,16 +11,20 @@ function Footer() {
     <div className='footer-container'>
       <div className="footer-icons">
         <div className="icon">
+          Email
           <a href="mailto:tonyruizo@pm.me"><FiMail /></a>
         </div>
         <div className="icon">
+          Twitter
           <a href="https://twitter.com/tonyruizo" target="_blank"><SlSocialTwitter /></a>
         </div>
         <div className="icon">
-          <a href="https://github.com/tonyruizo" target="_blank"><AiOutlineGithub /></a>
+          GitHub
+          <a href="https://github.com/tonyruizo" target="_blank"> <AiOutlineGithub /></a>
         </div>
         <div className="icon">
-          <a href="https://linkedin.com/in/tonyruizo" target="_blank"><SlSocialLinkedin /></a>
+          LinkedIn
+          <a href="https://linkedin.com/in/tonyruizo" target="_blank"> <SlSocialLinkedin /></a>
         </div>
       </div>
       <div className="copyright">

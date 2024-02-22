@@ -20,6 +20,7 @@ function AboutMe() {
 
   return (
     <div className='container aboutMe'>
+      <ul>
       {data && data.length > 0 ?
         (data.map(item=> (
           <li key={item.id}>
@@ -58,6 +59,7 @@ function AboutMe() {
           </li>))
         ) : <div className='ab-no-data' style={{color: 'var(--light)'}}>No data</div>
       }
+      </ul>
     </div>
   );
 }

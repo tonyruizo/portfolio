@@ -18,7 +18,7 @@ a {
   --primary-color: #4f7da0;
   --bg:#132031;
   --secondary-color: #d9dff1;
-  --light: #808080;
+  --light: #bbb8b8;
 
   --light-bg:#eee;
   --light-primary: #000;
@@ -54,6 +54,13 @@ body {
 
   .ab-bio {
     color: var(--light-bg)
+  }
+
+  .icon {
+    color: var(--light);
+  }
+  .copyright p {
+    color: var(--light)
   }
 }
 

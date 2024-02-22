@@ -1,0 +1,22 @@
+{
+  "name": "Tonyruizo Portfolio",
+  "short_name": "Tonyruizo",
+  "description": "Personal Portfolio",
+  "start_url": "/",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/src/assets/icons/144port-icon.svg",
+      "sizes": "144x144",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/src/assets/icons/512port-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "background_color": "#132031",
+  "theme_color": "#4f7da0"
+}
