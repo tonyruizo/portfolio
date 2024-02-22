@@ -6,12 +6,12 @@
   "display": "standalone",
   "icons": [
     {
-      "src": "/src/assets/icons/144port-icon.svg",
+      "src": "/assets/icons/144port-icon.svg",
       "sizes": "144x144",
       "type": "image/svg+xml"
     },
     {
-      "src": "/src/assets/icons/512port-icon.png",
+      "src": "/assets/icons/512port-icon.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
