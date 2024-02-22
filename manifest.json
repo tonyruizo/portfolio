@@ -6,15 +6,45 @@
   "display": "standalone",
   "icons": [
     {
-      "src": "/assets/icons/144port-icon.svg",
+      "src": "/src/assets/icons/72port-icon.svg",
+      "sizes": "72x72",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/src/assets/icons/96port-icon.svg",
+      "sizes": "96x96",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/src/assets/icons/128port-icon.svg",
+      "sizes": "128x128",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/src/assets/icons/144port-icon.svg",
       "sizes": "144x144",
       "type": "image/svg+xml"
     },
     {
-      "src": "/assets/icons/512port-icon.png",
+      "src": "/src/assets/icons/152port-icon.svg",
+      "sizes": "152x152",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/src/assets/icons/192port-icon.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/src/assets/icons/384port-icon.svg",
+      "sizes": "384x384",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/src/assets/icons/512port-icon.svg",
       "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "type": "image/svg+xml"
     }
   ],
   "background_color": "#132031",
